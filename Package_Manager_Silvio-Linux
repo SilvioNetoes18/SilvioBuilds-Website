@@ -1,0 +1,29 @@
+Instalar pacotes .SilvioBuilds localmente:
+sudo sbps -i nome-do-programa-i686 32-Bits
+sudo sbps -i nome-do-programa-x86_64 64-Bits
+sudo sbps -i ./nome-do-programa-i686.sbps 32-Bits
+sudo sbps -i ./nome-do-programa-x86_64.sbps 64-Bits
+
+Remover programas instalados no seu computador:
+sudo sbps -r nome-do-programa-i686 32-Bits
+sudo sbps -r nome-do-programa-x86_64 64-Bits
+sudo sbps -r ./nome-do-programa-i686.sbps 32-Bits
+sudo sbps -r ./nome-do-programa-x86_64.sbps 64-Bits
+
+Atualizar a lista de repositórios:
+sudo sbps -u nome-do-programa-i686 32-Bits
+sudo sbps -u nome-do-programa-x86_64 64-Bits
+sudo sbps -u ./nome-do-programa-i686.sbps 32-Bits
+sudo sbps -u ./nome-do-programa-x86_64.sbps 64-Bits
+
+Buscar o pacote no repositório e realizar o download para instalação:
+sudo sbps -d nome-do-programa-i686 32-Bits
+sudo sbps -d nome-do-programa-x86_64 64-Bits
+sudo sbps -d ./nome-do-programa-i686.sbps 32-Bits
+sudo sbps -d ./nome-do-programa-x86_64.sbps 64-Bits
+
+Buscar o pacote no repositório público e realizar o download para instalação:
+sudo sbps -pub nome-do-programa-i686 32-Bits
+sudo sbps -pub nome-do-programa-x86_64 64-Bits
+sudo sbps -pub ./nome-do-programa-i686.sbps 32-Bits
+sudo sbps -pub ./nome-do-programa-x86_64.sbps 64-Bits
