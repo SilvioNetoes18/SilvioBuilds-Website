@@ -1,2 +1,1 @@
-# SilvioBuilds-Website
-An SilvioBuilds Are Package Manager Of Silvio/GNU/Linux Supported An File .tgz Run a Script .SilvioBuilds to Generate File .tgz You to Use Command installskg --install -S --get name-of-package-all-arch.tgz
+# An SBPS Are Package Manager Of Silvio/GNU/Linux Supported An File .sbps You to Use Command for System 32-Bit sudo sbps -i name-of-package-i686.sbps & You to Use Command for System 64-Bit sudo sbps -i name-of-package-x86_64.sbps 
